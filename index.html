@@ -8,51 +8,61 @@
   </head>
   <body>
     <!-- Navbar -->
-    <header class="navbar">
-      <div class="container nav-flex">
-        <!-- <h1 class="logo"> -->
-          <img src="./assignment/Jadoo-travel-logo.svg" alt="logo" />
-        </h1>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="#">Destinations</a></li>
-            <li><a href="#">Hotels</a></li>
-            <li><a href="#">Flights</a></li>
-            <li><a href="#">Bookings</a></li>
-          </ul>
-        </nav>
-        <div class="nav-btns">
-          <a href="#" class="login-btn">Login</a>
-          <a href="#" class="signup-btn">Sign up</a>
-          <select class="lang-dropdown">
-            <option>EN</option>
-            <option>UR</option>
-          </select>
-        </div>
-      </div>
-    </header>
+<header class="navbar">
+  <div class="container nav-flex">
+    <img src="./assignment/Jadoo-travel-logo.svg" alt="logo" class="logo" />
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="container hero-flex">
-        <div class="hero-text">
-          <p class="tagline">Best Destinations Around the World</p>
-          <h1>Travel, <span>enjoy</span><br />and live a new and full life</h1>
-          <p class="description">
-            Built Wicket longer admire do barton vanity itself do in it.
-            Preferred to sportsmen it engrossed listening.
-          </p>
-          <div class="hero-buttons">
-            <a href="#" class="btn-orange">Find out more</a>
-           <div> 
-              <a href="#" class="btn-play"><img src="./assignment/play.svg" alt="play button"> Play Demo</a></div>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="./assignment/travelgirl.png" alt="Travel Girl" />
-        </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Bookings</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-btns">
+      <a href="#" class="login-btn">Login</a>
+      <a href="#" class="signup-btn">Sign up</a>
+      <select class="lang-dropdown">
+        <option>EN</option>
+        <option>UR</option>
+      </select>
+    </div>
+  </div>
+</header>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container hero-flex">
+    
+    <!-- LEFT SIDE TEXT -->
+    <div class="hero-text">
+      <p class="tagline">Best Destinations Around the World</p>
+      <h1>Travel, <span>enjoy</span><br />and live a new and full life</h1>
+      <p class="description">
+        Built Wicket longer admire do barton vanity itself do in it.
+        Preferred to sportsmen it engrossed listening.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-orange">Find out more</a>
+        <a href="#" class="btn-play">
+          <img src="./assignment/play.svg" alt="play button" />
+          Play Demo
+        </a>
       </div>
-    </section>
+    </div> <!-- .hero-text ends -->
+
+    <!-- RIGHT SIDE IMAGE -->
+    <div class="hero-image">
+      <img src="./assignment/travelgirl.png" alt="Travel Girl" />
+    </div>
+
+  </div>
+</section>
+
     <!-- Services Section -->
     <section class="services">
       <div class="container">
@@ -70,7 +80,7 @@
           </div>
 
           <!-- Service 2 -->
-          <div class="service-card active">
+          <div class="service-card">
             <img src="./assignment/airoplan-best-flights.svg" alt="Flight" />
             <h3>Best Flights</h3>
             <p>Engrossed listening. Park gate sell they west hard for the.</p>
