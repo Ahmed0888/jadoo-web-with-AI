@@ -110,7 +110,9 @@ body {
 }
 .btn-play a {
   text-align: center;
+  text-indent: 0px;
 }
+
 .hero-image img {
   width: 100%;
   max-width: 500px;
